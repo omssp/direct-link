@@ -5,7 +5,7 @@ const Footer = () => {
 	return (
 		<footer style={{ flex: 1, maxHeight: 100 }}>
 			<IconButton
-				href='https://github.com/aparus/direct-link'
+				href='https://github.com/omssp/direct-link'
 				target='_blank'
 				rel='noopener noreferrer'
 			>
