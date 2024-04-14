@@ -1,5 +1,5 @@
 import { getVideoInfo } from '../api/video/[videoId]'
-import VideoArticle from '../../components/VideoArticle'
+// import VideoArticle from '../../components/VideoArticle'
 
 import Layout from '../../components/Layout'
 
@@ -26,7 +26,7 @@ const VideoPage = props => {
 
 	return (
 		<Layout headProps={headProps}>
-			<VideoArticle {...videoArticleProps} />
+			{/* <VideoArticle {...videoArticleProps} /> */}
 		</Layout>
 	)
 }
