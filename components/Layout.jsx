@@ -1,6 +1,6 @@
-import { Container } from '@material-ui/core'
-import Heading from './Heading'
-import Footer from './Footer'
+// import { Container } from '@material-ui/core'
+// import Heading from './Heading'
+// import Footer from './Footer'
 import Head from './Head'
 
 const Layout = ({ children, headProps = {} }) => {
@@ -9,7 +9,7 @@ const Layout = ({ children, headProps = {} }) => {
 			{/* meta props */}
 			<Head {...headProps} />
 
-			<Container
+			{/* <Container
 				maxWidth='sm'
 				style={{
 					display: 'flex',
@@ -21,7 +21,7 @@ const Layout = ({ children, headProps = {} }) => {
 				<Heading />
 				<main>{children}</main>
 				<Footer />
-			</Container>
+			</Container> */}
 		</div>
 	)
 }
