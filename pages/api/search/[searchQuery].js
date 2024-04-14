@@ -1,5 +1,4 @@
-import ytsr from 'ytsr'
-
+const ytsr = require('ytsr');
 
 export default async(req, res) => {
     const { searchQuery } = req.query
