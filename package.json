@@ -8,14 +8,13 @@
         "start": "next start"
     },
     "dependencies": {
-
-
         "next": "^14.2.1",
+        "node-youtube-music": "^0.10.3",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
+        "youtubei.js": "^9.3.0",
         "ytdl-core": "^4.11.5",
-        "ytsr": "^3.8.4",
-        "node-youtube-music": "^0.10.3"
+        "ytsr": "^3.8.4"
     },
     "devDependencies": {
         "babel-eslint": "^10.1.0",
